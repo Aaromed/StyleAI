@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-fashion",
+      "description": "Stylish person in modern streetwear",
+      "imageUrl": "https://picsum.photos/seed/style1/800/1200",
+      "imageHint": "fashion streetwear"
+    },
+    {
+      "id": "wardrobe-empty",
+      "description": "Elegant minimalist closet background",
+      "imageUrl": "https://picsum.photos/seed/closet1/600/800",
+      "imageHint": "minimalist closet"
+    },
+    {
+      "id": "outfit-bg",
+      "description": "Sophisticated urban street background",
+      "imageUrl": "https://picsum.photos/seed/urban1/800/1000",
+      "imageHint": "urban street"
+    }
+  ]
+}

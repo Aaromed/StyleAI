@@ -1,0 +1,5 @@
+{
+  "name": "StyleAI",
+  "description": "AI-powered fashion assistant for your virtual wardrobe. Personal stylings based on weather and your unique collection.",
+  "requestFramePermissions": ["camera"]
+}

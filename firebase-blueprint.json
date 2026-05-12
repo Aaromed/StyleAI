@@ -1,0 +1,29 @@
+
+{
+  "entities": {
+    "WardrobeItem": {
+      "title": "Wardrobe Item",
+      "description": "A clothing item scanned and analyzed by AI",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "clothingType": { "type": "string" },
+        "mainColor": { "type": "string" },
+        "style": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "createdAt": { "type": "number" }
+      },
+      "required": ["userId", "clothingType", "mainColor", "imageUrl"]
+    }
+  },
+  "auth": {
+    "providers": ["google.com", "password"]
+  },
+  "firestore": {
+    "/wardrobe/{itemId}": {
+      "schema": "#/entities/WardrobeItem",
+      "description": "Collection of clothing items belonging to users"
+    }
+  }
+}
